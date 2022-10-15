@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.attribution {
+    font-size: 12px;
+    text-align: center;
+    margin: 20px 0;
+    margin-bottom: 0;
+}
+
+.attribution a {
+    color: white;
+}
+
+body {
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+    display: flex;
+    background-color: hsl(244, 38%, 16%);
+    justify-content: space-between;
+    border-radius: 8px;
+    width: 80vw;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 4vw;
+}
+
+.container .img_container {
+    width: 50%;
+}
+
+.img_container .purple_overlay {
+    background: #643783 url('/images/image-header-desktop.jpg');
+    background-blend-mode: overlay;
+    height: 100%;
+    background-position: center;
+}
+
+.heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+
+.heading #insights {
+    color: hsl(277, 64%, 61%)
+}
+
+.para {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: hsl(270, 19%, 81%);
+    line-height: 25px;
+    max-width: 360px;
+}
+
+.components {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.box {
+    margin: 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.box:first-child {
+    margin-left: 0;
+}
+
+.values {
+    font-size: 2.5vw;
+    font-weight: 700;
+}
+
+.titles {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.2vw;
+    font-weight: lighter;
+    color: hsl(270, 19%, 81%);
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+@media (max-width:750px) {
+
+
+    .container {
+        flex-direction: column-reverse;
+        width: auto;
+        align-items: center;
+        text-align: center;
+        margin: 0 1rem;
+        margin-top: 3rem;
+        border-radius: 10px;
+    }
+
+    .container .img_container {
+        width: 100%;
+        height: 300px;
+    }
+
+    .img_container .purple_overlay {
+        background: #643783 url('/images/image-header-mobile.jpg');
+        background-blend-mode: overlay;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        background-size: cover;
+    }
+
+    .components {
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .details {
+        width: 100%;
+        align-items: center;
+    }
+
+    .heading {
+        font-size: 1.6rem;
+    }
+
+    .para {
+        margin: 0 1.4rem;
+    }
+
+    .box {
+        margin: 0.5rem 0;
+    }
+
+    .values {
+        font-size: 1.2rem;
+    }
+
+    .titles {
+        font-size: 10px;
+    }
+
+    .attribution {
+        margin-bottom: 3rem;
+    }
+}
