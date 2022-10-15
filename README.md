@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [ Frontend Mentor - Stats preview card component solution]()
+- Live Site URL: [ Frontend Mentor - Stats preview card component solution](https://stats-preview-card-solution-pa.netlify.app)
 
 ### Built with
 
@@ -43,5 +43,5 @@ I learned the better use of background property of the containers
 
 ## Author
 
-- Website - [ Frontend Mentor - Stats preview card component solution]()
+- Website - [ Frontend Mentor - Stats preview card component solution](https://stats-preview-card-solution-pa.netlify.app)
 - Frontend Mentor - [@Priyanshu4206](https://www.frontendmentor.io/profile/Priyanshu4206)
